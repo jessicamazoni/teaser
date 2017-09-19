@@ -1,11 +1,30 @@
 .style-text{
 	color: #ff446e;
 	font-family: lato;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
     letter-spacing: -0.6px;
-    margin-top: 15%;
     padding: 0 35px;
-    
+    margin-top: 10%;
+ 
+ 	> .quote {
+		top: 50px;
+
+		&.-impact{
+			color: #f89c24;
+		}
+	}
 }
 
+@media #{$small-only} {
+  .style-text{
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    padding: 5px 0;
+    margin-top: 5%;
+ 
+		> .quote {
+		top: 20px;
+		}
+	}
+}

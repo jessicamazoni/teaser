@@ -1,5 +1,10 @@
 .background-page{
 	background: #c52656;
     min-height: 100vh;
-    border: 2em solid white;
+    border: 1em solid white;
+}
+@media #{$small-only} {
+	.background-page{
+	   border: none;
+	}
 }

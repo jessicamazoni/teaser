@@ -2,12 +2,24 @@
 	text-align: left;
 	color: #c52656;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 25px;
 	border-radius: 25px;
 	background-color: #fff;
-	width: 230px;
-	height: 40px;
-	margin: 20px 0 0 2%;
+	width: 35%;
+	height: 50px;
+	padding-left: 10px;
+	margin-top: 20px;
+	margin-right: 2%;
 	overflow: hidden;
-	position: relative;    
+	position: relative; 
 }
+@media #{$small-only} {
+    .icon-label{
+	width: 112%;
+	height: 40px;
+	margin-top: 10px;
+	margin-right: 2%;
+	
+}
+}
+

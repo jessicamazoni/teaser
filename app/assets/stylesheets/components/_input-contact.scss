@@ -1,8 +1,15 @@
 .input-contact{
 	color: #c52656;
-    font-weight: 700;
-    width: 50%;
-    height: 50%;
+	font-size: 20px;
+    width: 80%;
+    height: 100%;
+    padding-left: 5%;
     border:none;
     outline: none;
+}
+@media #{$small-only} {
+  .input-contact{
+    width: 85%;
+    padding-left: 3%;    
+	}
 }
