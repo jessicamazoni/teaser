@@ -7,9 +7,18 @@
     border:none;
     outline: none;
 }
+
+
+@media #{$medium-only} {
+  .input-contact{
+        width: 85%;
+        padding-left: 3%;      
+    }
+}
+
 @media #{$small-only} {
   .input-contact{
-    width: 85%;
-    padding-left: 3%;    
+        width: 85%;
+        padding-left: 3%;  
 	}
 }

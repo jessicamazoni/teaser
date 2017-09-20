@@ -13,13 +13,25 @@
 	overflow: hidden;
 	position: relative; 
 }
+
+
+@media #{$medium-only} {
+    .icon-label{
+		width: 100%;
+		height: 40px;
+		margin-top: 10px;
+		margin-right: 2%;	
+	}
+}
+
 @media #{$small-only} {
     .icon-label{
-	width: 112%;
-	height: 40px;
-	margin-top: 10px;
-	margin-right: 2%;
-	
+		width: 100%;
+		height: 40px;
+		margin-top: 10px;
+		margin-right: 2%;	
+	}
 }
-}
+
+
 

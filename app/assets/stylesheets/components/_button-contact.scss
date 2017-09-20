@@ -4,7 +4,7 @@
 	background-size: 100%;
 	color: #fff;
 	font-weight: 700;
-	width: 170px;
+	width: 20%;
 	height: 50px;
 	border: solid 1px #fff;
     cursor: pointer;
@@ -16,8 +16,19 @@
   		color: #c52656;
 	}
 }
+
+
+@media #{$medium-only} {
+	.button-contact {
+	  	display: block;
+		margin: 20px auto;
+	}
+}
+
 @media #{$small-only} {
   .button-contact {
-	margin-top: 20px;
+		display: block;
+		margin: 20px auto;
+		width: 40%;
 	}
 }

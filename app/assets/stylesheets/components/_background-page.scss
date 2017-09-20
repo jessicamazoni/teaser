@@ -2,7 +2,16 @@
 	background: #c52656;
     min-height: 100vh;
     border: 1em solid white;
+    overflow: hidden;
 }
+
+@media #{$medium-only} {
+	.background-page{
+	   border: none;
+	}
+}
+
+
 @media #{$small-only} {
 	.background-page{
 	   border: none;

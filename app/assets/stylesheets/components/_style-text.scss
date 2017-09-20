@@ -8,7 +8,6 @@
     margin-top: 10%;
  
  	> .quote {
-		top: 50px;
 
 		&.-impact{
 			color: #f89c24;
@@ -18,13 +17,10 @@
 
 @media #{$small-only} {
   .style-text{
-    font-weight: 700;
-    letter-spacing: -0.2px;
-    padding: 5px 0;
-    margin-top: 5%;
- 
-		> .quote {
-		top: 20px;
-		}
+        font-weight: 700;
+        letter-spacing: -0.2px;
+        padding: 5px 0;
+        margin-top: 5%;
+     	font-size: 1.5em;
 	}
 }
